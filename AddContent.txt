@@ -1,0 +1,63 @@
+webpage{
+
+  companyName;
+  logo;
+  servicesOffered;
+  contactInfo;
+  baseColorScheme;
+  colaborators
+
+
+
+  homepage{ 
+    with a section for the area and some works that has made
+    call to action or view our services
+    success highlights || testimonials this is more success stories like 500km optic fiber
+    }
+
+  about {
+    page with about the company and its history  and vision
+    certifications and licenses
+     partners;
+
+  }
+  services{
+    industries served{
+      page with all the industries that the company serve
+    }
+    page with all the services that the company provide
+  }
+  contact{
+    page with contact form and location map
+    phone number and email
+    social media links
+  }
+  Projects{
+    page with all the projects that the company has done
+    filter by type of project and location
+    each project with its own page with details and images
+  }
+  FAQ{
+    page with frequently asked questions and answers
+    categorized by topics
+    for first start and answers to common issues
+  }
+
+
+}
+
+
+jobManagment{
+  how to manage the jobs and how to make them in order and priority
+  and how to assing them to the employees
+
+  time calculation
+  employee name and data;
+
+
+
+}
+
+
+
+
