@@ -22,6 +22,7 @@ webpage{
 
   }
   services{
+    [analambanoume erga dhmosiou]
     industries served{
       page with all the industries that the company serve
     }
@@ -32,6 +33,7 @@ webpage{
     phone number and email
     social media links
   }
+
   Projects{
     page with all the projects that the company has done
     filter by type of project and location
