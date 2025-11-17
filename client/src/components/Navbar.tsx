@@ -6,7 +6,7 @@ import { ModeToggle } from "./mode-toggle";
 const centerLinks: LinkItemType[] = [
   { name: "Home", link: "/", icon: House },
   { name: "About", link: "#", icon: undefined },
-  { name: "Services", link: "#", icon: undefined },
+  { name: "Services", link: "/services", icon: undefined },
   { name: "Contact", link: "#", icon: undefined },
 ];
 const rightLinks = [ModeToggle];
