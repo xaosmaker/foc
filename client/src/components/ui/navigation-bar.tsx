@@ -16,7 +16,7 @@ function LinkItem({ item, close }: { item: LinkItemType; close: () => void }) {
     <li key={item.name} className="w-full">
       <a
         onClick={close}
-        className="flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 hover:bg-current/20"
+        className="flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-nowrap hover:bg-current/20"
         href={item.link}
       >
         {Icon && <Icon />}
@@ -42,7 +42,7 @@ export default function Navigationbar({
     setMobileMenuOpen(true);
   }
   return (
-    <nav className="sticky top-0 z-10 mx-auto flex items-center justify-between bg-inherit p-5 px-10 shadow-sm shadow-current md:p-2 lg:px-10">
+    <nav className="sticky top-0 z-10 mx-auto flex items-center justify-between bg-inherit p-5 px-10 shadow-sm shadow-current md:p-2 lg:px-10 dark:bg-neutral-950">
       <Logo />
       <ul className="hidden md:flex">
         {centerLinks.map((item) => (
