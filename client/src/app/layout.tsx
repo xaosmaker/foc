@@ -22,6 +22,26 @@ export const metadata: Metadata = {
   },
   description:
     "Στόχος μας είναι να φέρουμε αξιόπιστη, υψηλών προδιαγραφών οπτική ίνα σε κάθε σπίτι και επιχείρηση.",
+  keywords: [
+    "εγκατάσταση οπτικών ινών",
+    "ftth εγκατάσταση",
+    "οπτική ίνα στο σπίτι",
+    "cosmote fiber εγκατάσταση",
+    "σύνδεση οπτικής ίνας σε σπίτι",
+    "εταιρεία εγκατάστασης οπτικών ινών",
+    "συγκόλληση οπτικής ίνας",
+    "τεχνικός fiber στην Αθήνα / Θεσσαλονίκη / κλπ",
+    "fttr Ελλάδα",
+
+    "fiber optic installation Greece",
+    "FTTH installation company",
+    "fiber splicing services",
+    "fiber to the home setup",
+    "fiber cable contractor",
+    "underground fiber installation",
+    "aerial fiber installation",
+    "fiber maintenance services",
+  ],
 };
 
 export default function RootLayout({
