@@ -39,28 +39,28 @@ function ContactInfoRow({
 const ContactInfoData = [
   {
     name: "Έδρα",
-    value: "Αθήνα",
+    value: "Θεσσαλονίκη",
     Icon: <Users className="h-6 w-6 text-emerald-500" />,
   },
   {
     Icon: <MapPin className="h-6 w-6 text-sky-500" />,
-    name: "Διεύθυνση",
-    value: "Κατόπιν αιτήματος / προσφοράς",
+    name: "Κάλυψη",
+    value: "Θεσσαλονίκη / Μυτιλήνη",
   },
   {
     name: "Ώρες Λειτουργίας",
-    value: "09:00 – 18:00 (Δευτ. – Παρ.)",
+    value: "08:00 – 18:00 (Δευτ. – Παρ.)",
     Icon: <Clock className="h-6 w-6 text-orange-500" />,
   },
   {
     name: "Τηλέφωνο",
-    value: "69ΧΧ ΧΧΧ ΧΧΧ",
+    value: "6984882957",
     Icon: <PhoneCall className="h-6 w-6" />,
     forwordTo: "tel",
   },
   {
     name: "Email",
-    value: "text@text.com",
+    value: "Some real Mail",
     Icon: <Mail className="h-6 w-6" />,
     forwordTo: "mailto",
   },

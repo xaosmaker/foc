@@ -1,3 +1,4 @@
+import Companies from "@/components/Companies";
 import { Metadata } from "next";
 import Image from "next/image";
 export const metadata: Metadata = {
@@ -82,6 +83,7 @@ export default function AboutPage({}) {
           </ul>
         </div>
       </section>
+      <Companies className="bg-current/15" />
     </main>
   );
 }
