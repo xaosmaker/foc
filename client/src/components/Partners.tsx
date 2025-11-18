@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
-export default function Companies({
+export default function Partners({
   className,
 }: {
   className?: HTMLAttributes<HTMLDivElement>["className"];

@@ -16,17 +16,8 @@ webpage{
     }
 
   about {
-    page with about the company and its history  and vision
     certifications and licenses
-     partners;
 
-  }
-  services{
-    [analambanoume erga dhmosiou]
-    industries served{
-      page with all the industries that the company serve
-    }
-    page with all the services that the company provide
   }
   contact{
     page with contact form and location map
