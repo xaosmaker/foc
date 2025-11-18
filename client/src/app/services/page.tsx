@@ -1,7 +1,7 @@
 import { SERVICE_DATA } from "@/features/services/serviceData";
 import Image from "next/image";
 
-export default function page() {
+export default function Page() {
   return (
     <div className="p-10">
       <h1 className="text-center text-2xl font-bold">ΥΠΗΡΕΣΙΕΣ</h1>
@@ -16,28 +16,28 @@ export default function page() {
           {SERVICE_DATA.map((service) => (
             <section
               key={service.title}
-              className="relative rounded-md bg-neutral-900/75 px-5 pt-2 pb-6"
+              className="relative overflow-hidden rounded-md transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
             >
               {service.image && (
-                <div className="absolute top-0 left-0 -z-10 h-full w-full">
-                  <Image
-                    src={service.image}
-                    fill
-                    alt={service.image}
-                    className="h-full w-full rounded-md object-cover"
-                  />
-                </div>
+                <Image
+                  src={service.image}
+                  fill
+                  alt={service.image}
+                  className="absolute top-0 left-0 h-full w-full object-cover"
+                />
               )}
-
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
-              <ul className="pt-2 pl-8">
-                {service.services.map((str) => (
-                  <li key={str}>
-                    <span className="pr-3 text-green-500">✔</span> {str}
-                  </li>
-                ))}
-              </ul>
+              <div className="absolute top-0 left-0 h-full w-full bg-neutral-900/75" />
+              <div className="relative z-10 px-5 pt-2 pb-6">
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+                <ul className="pt-2 pl-8">
+                  {service.services.map((str) => (
+                    <li key={str}>
+                      <span className="pr-3 text-green-500">✔</span> {str}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </section>
           ))}
         </div>

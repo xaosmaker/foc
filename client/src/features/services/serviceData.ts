@@ -6,8 +6,7 @@ interface Service {
 }
 export const SERVICE_DATA: Service[] = [
   {
-    title:
-      "Μελέτη – Αυτοψία Χώρου Πριν ξεκινήσει η εγκατάσταση πραγματοποιούμε:",
+    title: "Μελέτη – Αυτοψία Χώρου",
     description: undefined,
     services: [
       "Έλεγχο πρόσβασης οπτικής ίνας (αέριος ή υπόγειος)",
@@ -90,28 +89,6 @@ export const SERVICE_DATA: Service[] = [
       "Άμεση υποστήριξη σε αστοχίες καλωδίου",
     ],
     image: "/repair_fiber_optic_box.jpg",
-  },
-  {
-    title: "Υπηρεσίες σε:",
-    description: undefined,
-    services: [
-      "Μονοκατοικίες",
-      "Πολυκατοικίες",
-      "Επαγγελματικούς χώρους",
-      "Νέες οικοδομές & ανακαινίσεις",
-    ],
-    image: "/fiber_optic_building.png",
-  },
-  {
-    title: "Γιατί να μας επιλέξετε",
-    description: undefined,
-    services: [
-      "Πιστοποιημένοι τεχνικοί οπτικών ινών",
-      "Εμπειρία σε δίκτυα ΟΤΕ / COSMOTE",
-      "Καθαρή & επαγγελματική εγκατάσταση",
-      "Εγγύηση ποιότητας & μετρήσεων",
-      "Γρήγορη ανταπόκριση & υποστήριξη",
-    ],
   },
   {
     title: "if we want to add",
