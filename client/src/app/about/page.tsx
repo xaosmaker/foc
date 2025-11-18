@@ -1,9 +1,10 @@
-"use client";
-
+import { Metadata } from "next";
 import Image from "next/image";
+export const metadata: Metadata = {
+  title: "About us",
+};
 
 export default function AboutPage({}) {
-  const companyName = "Foc";
   return (
     <main className="prose prose-invert lg:prose-lg mx-auto max-w-6xl py-12">
       <section className="flex flex-col gap-6 px-10">
@@ -12,8 +13,8 @@ export default function AboutPage({}) {
             Σχετικά με εμάς
           </h1>
           <p className="mt-2 text-center">
-            {companyName} — Εξειδίκευση σε εγκαταστάσεις οπτικής ίνας FTTH &
-            FTTR για κατοικίες και επιχειρήσεις.
+            foc — Εξειδίκευση σε εγκαταστάσεις οπτικής ίνας FTTH & FTTR για
+            κατοικίες και επιχειρήσεις.
           </p>
         </div>
 

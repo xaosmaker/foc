@@ -1,6 +1,10 @@
 import { SERVICE_DATA } from "@/features/services/serviceData";
+import { Metadata } from "next";
 import Image from "next/image";
 
+export const metadata: Metadata = {
+  title: "Services",
+};
 export default function Page() {
   return (
     <div className="p-10">
