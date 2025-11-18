@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { X } from "lucide-react";
 import Logo from "@/components/Logo";
+import Link from "next/link";
 
 export interface LinkItemType {
   name: string;
@@ -14,7 +15,7 @@ function LinkItem({ item, close }: { item: LinkItemType; close: () => void }) {
   const Icon = item.icon;
   return (
     <li key={item.name} className="w-full">
-      <a
+      <Link
         onClick={close}
         className="flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-nowrap hover:bg-current/20"
         href={item.link}
@@ -22,7 +23,7 @@ function LinkItem({ item, close }: { item: LinkItemType; close: () => void }) {
         {Icon && <Icon />}
 
         {item.name}
-      </a>
+      </Link>
     </li>
   );
 }

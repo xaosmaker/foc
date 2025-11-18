@@ -1,0 +1,19 @@
+services:
+  foc_client:
+    container_name: foc_client
+    build:
+      context: client
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./client:/client
+    expose:
+      - 3020
+    ports:
+      - 3020:3020
+    networks:
+      - local-nginx-net
+    command: pnpm dev
+
+networks:
+  local-nginx-net:
+    external: true

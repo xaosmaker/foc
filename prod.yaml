@@ -1,0 +1,18 @@
+services:
+  foc_client:
+    container_name: foc_client
+    build:
+      context: client
+      dockerfile: Dockerfile
+    expose:
+      - 3020
+    networks:
+      # - prod-nginx-net
+      - local-nginx-net
+    command: pnpm start
+
+networks:
+  # prod-nginx-net:
+  #   external: true
+  local-nginx-net:
+    external: true
