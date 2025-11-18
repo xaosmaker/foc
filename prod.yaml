@@ -7,12 +7,9 @@ services:
     expose:
       - 3020
     networks:
-      # - prod-nginx-net
-      - local-nginx-net
+      - prod-nginx-net
     command: pnpm start
 
 networks:
-  # prod-nginx-net:
-  #   external: true
-  local-nginx-net:
+  prod-nginx-net:
     external: true
