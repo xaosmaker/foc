@@ -1,3 +1,4 @@
+import Achievements from "@/components/Achievements";
 import Partners from "@/components/Partners";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -84,6 +85,7 @@ export default function AboutPage({}) {
         </div>
       </section>
       <Partners className="bg-current/15" />
+      <Achievements />
     </main>
   );
 }
