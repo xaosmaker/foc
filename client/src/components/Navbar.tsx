@@ -5,9 +5,9 @@ import { ModeToggle } from "./mode-toggle";
 
 const centerLinks: LinkItemType[] = [
   { name: "Home", link: "/", icon: House },
-  { name: "About", link: "/about", icon: undefined },
+  { name: "Σχετικά", link: "/about", icon: undefined },
   { name: "Υπηρεσίες", link: "/services", icon: undefined },
-  { name: "Contact", link: "#", icon: undefined },
+  { name: "Επικοινωνήστε", link: "/contact", icon: undefined },
   { name: "κάλυψη δικτύου", link: "/network-coverage", icon: undefined },
 ];
 const rightLinks = [ModeToggle];
