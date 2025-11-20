@@ -8,7 +8,10 @@ export default function Partners({
 }) {
   return (
     <div
-      className={cn("flex items-center justify-center gap-10 p-10", className)}
+      className={cn(
+        "flex items-center gap-5 px-5 py-10 md:justify-center md:gap-10",
+        className,
+      )}
     >
       <Image src="/OTE_Logo.svg" width={100} height={100} alt="ote logo" />
       <Image src="/Vodafone_Logo.svg" width={100} height={100} alt="ote logo" />

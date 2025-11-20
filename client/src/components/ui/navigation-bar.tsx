@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Logo from "@/components/Logo";
 import Link from "next/link";
 
@@ -59,7 +59,7 @@ export default function Navigationbar({
         </ul>
       )}
       <button onClick={open} className="block md:hidden">
-        open
+        <Menu />
       </button>
       <AnimatePresence>
         {mobileMenuOpen && (
