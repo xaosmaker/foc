@@ -22,20 +22,20 @@ export default function Home() {
             asChild
             className="bg-linear-to-r from-lime-400 to-green-500 text-neutral-950 transition-all duration-300 hover:scale-105 hover:from-green-500 hover:to-lime-400"
           >
-            <Link href="#">Contact Us</Link>
+            <Link href="#">Επικοινωνήστε</Link>
           </Button>
 
           <Button
             asChild
             className="bg-linear-to-r from-lime-400 to-green-500 text-neutral-950 transition-all duration-300 hover:scale-105 hover:from-green-500 hover:to-lime-400"
           >
-            <Link href="/about">about us</Link>
+            <Link href="/about">Σχετικά</Link>
           </Button>
           <Button
             asChild
             className="bg-linear-to-r from-lime-400 to-green-500 text-neutral-950 transition-all duration-300 hover:scale-105 hover:from-green-500 hover:to-lime-400"
           >
-            <Link href="/services">Services</Link>
+            <Link href="/services">Υπηρεσίες</Link>
           </Button>
         </div>
 

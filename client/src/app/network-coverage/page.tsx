@@ -21,7 +21,7 @@ export default function Page() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Μετάβαση στην επίσημη κυβερνητική εφαρμογή <ArrowRight />
+            Μετάβαση στην επίσημη εφαρμογή <ArrowRight />
           </a>
         </Button>
       </div>
