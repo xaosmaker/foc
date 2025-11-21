@@ -10,17 +10,20 @@ export default function AboutPage({}) {
   return (
     <main className="prose prose-invert lg:prose-lg mx-auto max-w-6xl py-12">
       <section className="flex flex-col gap-6 px-10">
-        <div>
-          <h1 className="text-center text-3xl font-extrabold">
+        <header className="animate-div-top">
+          <h1 className="underline-comp-color text-center text-3xl font-extrabold">
             Σχετικά με εμάς
           </h1>
-          <p className="mt-2 text-center">
-            foc — Εξειδίκευση σε εγκαταστάσεις οπτικής ίνας FTTH & FTTR για
+          <p className="mt-10 text-center">
+            <span className="comp-color bg-clip-text text-lg text-transparent">
+              foc
+            </span>
+            — Εξειδίκευση σε εγκαταστάσεις οπτικής ίνας FTTH & FTTR για
             κατοικίες και επιχειρήσεις.
           </p>
-        </div>
+        </header>
 
-        <article className="">
+        <article className="animate-div-left">
           <div className="relative mr-8 aspect-square h-full w-full sm:float-left sm:h-1/2 sm:w-1/2">
             <Image
               src="/fiber_optic_world.png"
@@ -30,16 +33,20 @@ export default function AboutPage({}) {
             />
           </div>
           <div className="mt-4 p-6">
-            <h2 className="text-2xl font-semibold">Η αποστολή μας</h2>
-            <p className="mt-3">
+            <h2 className="underline-comp-color text-2xl font-semibold">
+              Η αποστολή μας
+            </h2>
+            <p className="mt-6">
               Στόχος μας είναι να φέρουμε αξιόπιστη, υψηλών προδιαγραφών οπτική
               ίνα σε κάθε σπίτι και επιχείρηση. Αναλαμβάνουμε από την όδευση της
               γραμμής (αέρια ή υπόγεια) έως την εσωτερική διανομή και
               πιστοποίηση, παρέχοντας λύσεις που ακολουθούν διεθνή πρότυπα.
             </p>
 
-            <h3 className="mt-6 text-lg font-medium">Ποιοι είμαστε</h3>
-            <p className="mt-2">
+            <h2 className="underline-comp-color mt-6 text-2xl font-semibold">
+              Ποιοι είμαστε
+            </h2>
+            <p className="mt-6">
               Είμαστε ομάδα τεχνικών εκπαιδευμένων σε εργασίες FTTH/FTTR, fusion
               splicing, OTDR μετρήσεις και εγκαταστάσεις ONT/router.
               Συνεργαζόμαστε με παρόχους δικτύου, συμπεριλαμβανομένου του
@@ -47,10 +54,10 @@ export default function AboutPage({}) {
               υποστήριξης.
             </p>
 
-            <h3 className="mt-6 text-lg font-medium">
+            <h2 className="underline-comp-color mt-6 text-2xl font-semibold">
               Πιστοποιήσεις & Πρότυπα
-            </h3>
-            <p className="mt-2">
+            </h2>
+            <p className="mt-6">
               Τηρούμε διεθνή πρότυπα ποιότητας (ITU‑T G.652/G.657), ασφάλειας
               και ηλεκτρολογικών κανόνων. Όλος ο εξοπλισμός είναι πιστοποιημένος
               CE/ISO και οι τεχνικοί διαθέτουν επαγγελματική εκπαίδευση σε
@@ -62,7 +69,9 @@ export default function AboutPage({}) {
 
       <section className="mt-10 bg-current/15 p-6 px-10 py-10">
         <div>
-          <h3 className="text-xl font-semibold">Όραμα & Δέσμευση</h3>
+          <h2 className="underline-comp-color mt-6 text-2xl font-semibold">
+            Όραμα & Δέσμευση
+          </h2>
           <p className="mt-2">
             Σκοπός μας είναι να στηρίξουμε την ψηφιακή αναβάθμιση της Ελλάδας,
             προσφέροντας σταθερή και ταχύτατη σύνδεση σε κάθε σπίτι και
@@ -72,9 +81,11 @@ export default function AboutPage({}) {
         </div>
       </section>
 
-      <section className="mt-10 p-6 px-10">
+      <section className="animate-div-left mt-10 p-6 px-10">
         <div>
-          <h3 className="text-xl font-semibold">{why.title}</h3>
+          <h2 className="underline-comp-color mt-6 text-2xl font-semibold">
+            {why.title}
+          </h2>
           <ul className="mt-2 list-disc">
             {why.services.map((service) => (
               <li className="ml-10 p-2" key={service}>
