@@ -5,7 +5,7 @@ import { ModeToggle } from "./mode-toggle";
 
 const centerLinks: LinkItemType[] = [
   { name: "Home", link: "/", icon: House },
-  { name: "Σχετικά", link: "/about", icon: undefined },
+  { name: "Εταιρεία", link: "/about", icon: undefined },
   { name: "Υπηρεσίες", link: "/services", icon: undefined },
   { name: "Επικοινωνήστε", link: "/contact", icon: undefined },
   { name: "κάλυψη δικτύου", link: "/network-coverage", icon: undefined },

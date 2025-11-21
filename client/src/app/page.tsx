@@ -7,9 +7,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="arrow relative h-[90dvh] w-screen">
+      <div className="arrow relative h-[50dvh] w-screen">
         <div className="absolute z-10 flex h-full w-full flex-col items-center justify-center gap-8 bg-black/70 px-6">
-          <h1 className="z-10 scale-200 bg-linear-to-r from-lime-400 to-green-500 bg-clip-text font-extrabold tracking-wider text-transparent">
+          <h1 className="comp-color z-10 scale-150 bg-clip-text text-7xl font-extrabold tracking-wider text-transparent">
             foc
           </h1>
           <p className="text-neutral-50">
@@ -20,20 +20,20 @@ export default function Home() {
         <div className="absolute bottom-20 z-10 flex w-full items-center justify-around px-10">
           <Button
             asChild
-            className="bg-linear-to-r from-lime-400 to-green-500 text-neutral-950 transition-all duration-300 hover:scale-105 hover:from-green-500 hover:to-lime-400"
+            className="comp-color text-neutral-950 transition-all duration-300 hover:scale-105 hover:bg-linear-to-l"
           >
-            <Link href="#">Επικοινωνήστε</Link>
+            <Link href="/contact">Επικοινωνήστε</Link>
           </Button>
 
           <Button
             asChild
-            className="bg-linear-to-r from-lime-400 to-green-500 text-neutral-950 transition-all duration-300 hover:scale-105 hover:from-green-500 hover:to-lime-400"
+            className="comp-color text-neutral-950 transition-all duration-300 hover:scale-105 hover:bg-linear-to-l"
           >
-            <Link href="/about">Σχετικά</Link>
+            <Link href="/about">Εταιρεία</Link>
           </Button>
           <Button
             asChild
-            className="bg-linear-to-r from-lime-400 to-green-500 text-neutral-950 transition-all duration-300 hover:scale-105 hover:from-green-500 hover:to-lime-400"
+            className="comp-color text-neutral-950 transition-all duration-300 hover:scale-105 hover:bg-linear-to-l"
           >
             <Link href="/services">Υπηρεσίες</Link>
           </Button>

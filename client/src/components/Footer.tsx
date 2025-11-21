@@ -91,7 +91,7 @@ export default function Footer() {
 
         <div className="mt-4">
           <a
-            href="#contact"
+            href="/contact"
             className="inline-block w-full rounded-lg bg-linear-to-r from-lime-400 to-green-500 px-4 py-2 text-center font-medium text-neutral-950 shadow transition-all duration-300 hover:scale-105 hover:from-green-500 hover:to-lime-400"
           >
             Κλείστε ΔΩΡΕΑΝ Αυτοψία
